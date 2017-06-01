@@ -1,0 +1,19 @@
+{
+    "name": "viniciuswebdev/mattermost-handler",
+    "description": "Handle logs to Mattermost",
+    "require": {
+        "monolog/monolog": "~1.18"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Oliveira Silva",
+            "email": "viniciuswebdev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MattermostHandler\\": "src/"
+        }
+    }
+}
