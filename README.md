@@ -4,6 +4,12 @@
 
 This Handler may be useful if you need send log messages to Mattermost channels, it's very easy to setup and integrate in your application if you are using [Monolog](https://github.com/Seldaek/monolog).
 
+## Instalation
+
+```
+composer require "viniciuswebdev/monolog-mattermost:1.0.0"
+```
+
 ## Code example
 
 ```php
