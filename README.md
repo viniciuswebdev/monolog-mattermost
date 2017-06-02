@@ -6,7 +6,7 @@
 use Monolog\Logger;
 
 $logger = new Logger('olar');
-$logger->pushHandler(new MattermostHandler('https://chat.easytaxi.net.br/hooks/x'));
+$logger->pushHandler(new MattermostHandler('https://mattermost.company.net.br/hooks/x'));
 
 $logger->info('Hello!');
 ```
