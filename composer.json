@@ -1,5 +1,5 @@
 {
-    "name": "viniciuswebdev/mattermost-handler",
+    "name": "viniciuswebdev/monolog-mattermost",
     "description": "Handle logs to Mattermost",
     "require": {
         "monolog/monolog": "~1.22",
