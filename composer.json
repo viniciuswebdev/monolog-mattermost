@@ -2,7 +2,7 @@
     "name": "viniciuswebdev/mattermost-handler",
     "description": "Handle logs to Mattermost",
     "require": {
-        "monolog/monolog": "~1.18"
+        "monolog/monolog": "^1.20"
     },
     "license": "MIT",
     "authors": [
