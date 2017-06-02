@@ -16,7 +16,7 @@ class MattermostHandler extends AbstractProcessingHandler
         parent::__construct($level, $bubble);
 
         $this->webHookUrl = $webHookUrl;
-        $this->client = (!$client) ?: new Client();
+        $this->client = ($client) ?: new Client();
     }
 
     public function write(array $record)
