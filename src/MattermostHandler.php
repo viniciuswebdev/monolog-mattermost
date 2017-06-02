@@ -19,10 +19,9 @@ class MattermostHandler extends AbstractProcessingHandler
         $this->client = (!$client) ?: new Client();
     }
 
-    protected function write(array $record)
+    public function write(array $record)
     {
-        $client = new Client();
-        $client->request('POST', $this->webHookUrl, [
+        $this->client->request('POST', $this->webHookUrl, [
             'form_params' => [
                 'payload' => json_encode(['text' => $record['formatted']])
             ]
