@@ -10,7 +10,7 @@ This Handler may be useful if you need send log messages to Mattermost channels,
 use Monolog\Logger;
 
 $logger = new Logger('application');
-$logger->pushHandler(new MattermostHandler('https://mattermost.my-company.net.br/hooks/xxx-generated-token-xxx'));
+$logger->pushHandler(new MattermostHandler('https://mattermost.my-company.net.br/hooks/xxx'));
 
 $logger->info('Your message here!');
 ```
