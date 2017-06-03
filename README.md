@@ -33,4 +33,4 @@ Just follow these few steps:
 
 ## License
 
-The [MTI](https://opensource.org/licenses/MIT) License (MIT).
+The [MIT](https://opensource.org/licenses/MIT) License (MIT).
