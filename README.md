@@ -30,3 +30,7 @@ Just follow these few steps:
 * Add Incoming Webhook
 * Chose a name, description and the desired channel to publish
 * Get the URL to use in the Handler constructor
+
+## License
+
+The [MTI](https://opensource.org/licenses/MIT) License (MIT).
